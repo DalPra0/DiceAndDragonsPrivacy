@@ -4,9 +4,20 @@ Página de Política de Privacidade para o app DnDice.
 
 ## 📁 Arquivos
 
-- `index.html` - Página principal com a política em inglês e português
+- `index.html` - Página de Política de Privacidade (bilíngue)
+- `support.html` - Página de Suporte e Contato (bilíngue)
 - `style.css` - Estilos responsivos e modernos
 - `script.js` - Funcionalidade de troca de idioma
+
+## 🎯 URLs para a App Store
+
+Depois do deploy, use estas URLs no App Store Connect:
+
+**Privacy Policy URL:**
+`https://SEU_USUARIO.github.io/dndice-privacy/`
+
+**Support URL:**
+`https://SEU_USUARIO.github.io/dndice-privacy/support.html`
 
 ## 🚀 Como fazer deploy
 
@@ -53,18 +64,44 @@ vercel
 
 ## 📝 Para usar na App Store
 
-Copie a URL final (depois do deploy) e cole no campo "Privacy Policy URL" do App Store Connect.
+Copie as URLs finais (depois do deploy) e cole nos campos correspondentes do App Store Connect:
 
-Exemplo: `https://dalpra0.github.io/dndice-privacy/`
+**Privacy Policy URL:** `https://dalpra0.github.io/dndice-privacy/`
+**Support URL:** `https://dalpra0.github.io/dndice-privacy/support.html`
+
+## 🧪 Como testar localmente
+
+```bash
+# Abrir a página de privacidade
+open /Users/lucasdalprabrascher/Developer/DiceAndDragonsPrivacy/index.html
+
+# Abrir a página de suporte
+open /Users/lucasdalprabrascher/Developer/DiceAndDragonsPrivacy/support.html
+```
+
+Ou simplesmente arraste os arquivos HTML para o navegador!
 
 ## ✨ Funcionalidades
 
+**Página de Privacidade:**
 - ✅ Bilíngue (Inglês/Português)
 - ✅ Detecção automática de idioma do navegador
 - ✅ Design responsivo (mobile/desktop)
+- ✅ Política completa e transparente
+
+**Página de Suporte:**
+- ✅ FAQs abrangentes em ambos idiomas
+- ✅ 3 formas de contato (Email, Bug Report, Feature Request)
+- ✅ Informações do app
+- ✅ Tempo de resposta estimado
+- ✅ Cards interativos com hover effects
+
+**Geral:**
+- ✅ Navegação entre páginas
 - ✅ Animações suaves
 - ✅ Salva preferência de idioma
 - ✅ Pronto para impressão
+- ✅ 100% responsivo
 
 ## 🎨 Customização
 
